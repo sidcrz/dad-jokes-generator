@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    background-image:url("dadjokes.png");
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:monospace;
+}
+.container{
+    background-color: aqua;
+    
+    padding: 20px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.03);
+    border-radius: 15px;
+    width: 85%;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.btn{
+    background-color: aquamarine;
+     font-size:18px ;
+     font-weight: 700;
+     cursor: pointer;
+     padding: 10px;
+     border-color: brown;
+
+}
+.joke{
+    font-size: 40px;
+    margin: 40px;
+}
+.btn:hover{
+    background-color: rgba(242, 100, 12, 0.3);
+}
