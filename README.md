@@ -1,1 +1,4 @@
-# dad-jokes-generator
+This code is using JavaScript to fetch a dad joke from the API located at "https://api.api-ninjas.com/v1/dadjokes?limit=1" and display it on the page. The API requires an API key, which is stored in the "apiKey" variable, and passed in the request headers with key "X-Api-Key". The code also disables the button while the joke is being fetched and shows a "Loading..." message, and re-enables the button when the joke is received or if an error occurs. The joke is displayed on the page by modifying the inner text of an element with the ID "joke". The button element with the ID "btn" has a click event listener that calls the "getJoke" function when clicked.
+
+
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/57244923/213877541-9ec641bc-cda6-45dd-b13c-b49d85b2c197.png">
